@@ -1,0 +1,58 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5AT-138C" pn="GW5AT-LV138PG484AC1/I0">gw5at138c-007</Device>
+    <FileList>
+        <File path="src/acg720_dvp_ov5640_hdmi.v" type="file.verilog" enable="1"/>
+        <File path="src/control/key_debounce.v" type="file.verilog" enable="1"/>
+        <File path="src/control/board_health_monitor.v" type="file.verilog" enable="1"/>
+        <File path="src/display/engineering_hud.v" type="file.verilog" enable="1"/>
+        <File path="src/display/ws2812b_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/display/ws2812_status_ring.v" type="file.verilog" enable="1"/>
+        <File path="src/control/ht6221_remote_buttons.v" type="file.verilog" enable="1"/>
+        <File path="src/display/elapsed_time_sevenseg.v" type="file.verilog" enable="1"/>
+        <File path="src/display/ssd1306_status_i2c.v" type="file.verilog" enable="1"/>
+        <File path="src/display/oled_i2c_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/trajectory/trajectory_point_buffer.v" type="file.verilog" enable="1"/>
+        <File path="src/trajectory/unsigned_divider_32.v" type="file.verilog" enable="1"/>
+        <File path="src/trajectory/trajectory_resampler.v" type="file.verilog" enable="1"/>
+        <File path="src/uart/uart_tx_8n1.v" type="file.verilog" enable="1"/>
+        <File path="src/uart/trajectory_uart_packet_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/uart/uart_rx_8n1.v" type="file.verilog" enable="1"/>
+        <File path="src/uart/result_packet_window.v" type="file.verilog" enable="1"/>
+        <File path="src/uart/host_uart_bridge.v" type="file.verilog" enable="1"/>
+        <File path="src/uart/print_link_core.v" type="file.verilog" enable="1"/>
+        <File path="src/uart/print_status_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/camera/DVP_Capture.v" type="file.verilog" enable="1"/>
+        <File path="src/camera/camera_init.v" type="file.verilog" enable="1"/>
+        <File path="src/camera/i2c_control/i2c_bit_shift.v" type="file.verilog" enable="1"/>
+        <File path="src/camera/i2c_control/i2c_control.v" type="file.verilog" enable="1"/>
+        <File path="src/camera/ov5640_init_table_jpeg.v" type="file.verilog" enable="1"/>
+        <File path="src/camera/ov5640_init_table_rgb.v" type="file.verilog" enable="1"/>
+        <File path="src/camera/ov7725_init_table_rgb.v" type="file.verilog" enable="1"/>
+        <File path="src/ddr3_frame_buffer.v" type="file.verilog" enable="1"/>
+        <File path="src/ddr3_memory_interface/ddr3_memory_interface.v" type="file.verilog" enable="1"/>
+        <File path="src/ddr3_self_test.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_top/rd_data_fifo.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_top/wr_data_fifo.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/gowin_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/gowin_pll_mod.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/mask_line_buffer_sdpb.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi_pll/hdmi_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi_pll/hdmi_pll_mod.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi_tmds_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/audio/result_audio_event.v" type="file.verilog" enable="1"/>
+        <File path="src/audio/meow_pcm_player.v" type="file.verilog" enable="1"/>
+        <File path="src/audio/hdmi_audio_island.v" type="file.verilog" enable="1"/>
+        <File path="src/pll_init.v" type="file.verilog" enable="1"/>
+        <File path="src/video_720p_camera.v" type="file.verilog" enable="1"/>
+        <File path="src/video_720p_colorbar.v" type="file.verilog" enable="1"/>
+        <File path="src/vision/red_pen_centroid.v" type="file.verilog" enable="1"/>
+        <File path="src/vision/hand_skin_mask.v" type="file.verilog" enable="1"/>
+        <File path="src/vision/trajectory_bitmap_sdpb.v" type="file.verilog" enable="1"/>
+        <File path="src/acg720_dvp_ov5640_hdmi.cst" type="file.cst" enable="1"/>
+        <File path="src/acg720_dvp_ov5640_hdmi.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
