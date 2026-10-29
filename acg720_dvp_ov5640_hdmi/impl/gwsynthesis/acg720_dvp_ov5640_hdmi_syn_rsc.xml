@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="acg720_dvp_ov5640_hdmi" Register="127" Alu="27" Lut="344" T_Register="9380(127)" T_Alu="3434(27)" T_Lut="12865(344)" T_MULT12X12="8(0)" T_Bsram="35(0)" T_Ssram="25(0)">
+ <SubModule name="u_elapsed_time_sevenseg" Register="98" Lut="169" T_Register="98(98)" T_Lut="169(169)"/>
+ <SubModule name="u_key_s1_mode" Register="24" Lut="40" T_Register="24(24)" T_Lut="40(40)"/>
+ <SubModule name="u_key_s2_view" Register="24" Lut="39" T_Register="24(24)" T_Lut="39(39)"/>
+ <SubModule name="u_key_s3_action" Register="24" Lut="39" T_Register="24(24)" T_Lut="39(39)"/>
+ <SubModule name="u_key_s4_action" Register="24" Lut="39" T_Register="24(24)" T_Lut="39(39)"/>
+ <SubModule name="u_ht6221_remote_buttons" Register="93" Alu="8" Lut="199" T_Register="93(93)" T_Alu="8(8)" T_Lut="199(199)"/>
+ <SubModule name="u_ddr_pll" T_Register="37(0)" T_Alu="16(0)" T_Lut="55(0)">
+  <SubModule name="u_pll"/>
+  <SubModule name="u_pll_init" Register="37" Alu="16" Lut="55" T_Register="37(37)" T_Alu="16(16)" T_Lut="55(55)"/>
+ </SubModule>
+ <SubModule name="u_startup_ddr_test" Register="69" Lut="303" T_Register="69(69)" T_Lut="303(303)"/>
+ <SubModule name="u_ddr3" Register="3406" Alu="125" Lut="2147" Bsram="8" T_Register="3406(3406)" T_Alu="125(125)" T_Lut="2147(2147)" T_Bsram="8(8)"/>
+ <SubModule name="u_camera_init" Register="34" Lut="74" T_Register="101(34)" T_Lut="268(74)" T_Bsram="1(0)">
+  <SubModule name="ov5640_init_table_rgb_inst" Bsram="1" T_Bsram="1(1)"/>
+  <SubModule name="i2c_control" Register="44" Lut="115" T_Register="67(44)" T_Lut="194(115)">
+   <SubModule name="i2c_bit_shift" Register="23" Lut="79" T_Register="23(23)" T_Lut="79(79)"/>
+  </SubModule>
+ </SubModule>
+ <SubModule name="u_dvp_capture" Register="56" Lut="47" T_Register="56(56)" T_Lut="47(47)"/>
+ <SubModule name="u_red_pen_centroid" Register="1128" Alu="957" Lut="2291" MULT12X12="1" T_Register="1128(1128)" T_Alu="957(957)" T_Lut="2291(2291)" T_MULT12X12="1(1)" T_Bsram="2(0)">
+  <SubModule name="u_mask_line_buffer" Bsram="1" T_Bsram="1(1)"/>
+  <SubModule name="u_trajectory_bitmap" Bsram="1" T_Bsram="1(1)"/>
+ </SubModule>
+ <SubModule name="u_hand_skin_mask" Register="1577" Alu="1443" Lut="2797" T_Register="1577(1577)" T_Alu="1443(1443)" T_Lut="2797(2797)" T_Bsram="2(0)">
+  <SubModule name="u_hand_mask_line_buffer" Bsram="1" T_Bsram="1(1)"/>
+  <SubModule name="u_hand_trajectory_bitmap" Bsram="1" T_Bsram="1(1)"/>
+ </SubModule>
+ <SubModule name="u_trajectory_point_buffer" Register="20" Lut="29" Bsram="1" T_Register="20(20)" T_Lut="29(29)" T_Bsram="1(1)"/>
+ <SubModule name="u_trajectory_resampler" Register="421" Alu="485" Lut="458" MULT12X12="6" Bsram="1" T_Register="574(421)" T_Alu="528(485)" T_Lut="584(458)" T_MULT12X12="6(6)" T_Bsram="1(1)">
+  <SubModule name="u_divider" Register="153" Alu="43" Lut="126" T_Register="153(153)" T_Alu="43(43)" T_Lut="126(126)"/>
+ </SubModule>
+ <SubModule name="u_host_uart_bridge" Register="62" Lut="5" T_Register="595(62)" T_Alu="71(0)" T_Lut="611(5)" T_Bsram="1(0)">
+  <SubModule name="u_rx" Register="41" Lut="50" T_Register="41(41)" T_Lut="50(50)"/>
+  <SubModule name="u_print" Register="337" Alu="71" Lut="354" Bsram="1" T_Register="337(337)" T_Alu="71(71)" T_Lut="354(354)" T_Bsram="1(1)"/>
+  <SubModule name="u_printer" Register="32" Lut="49" T_Register="32(32)" T_Lut="49(49)"/>
+  <SubModule name="u_status" Register="91" Lut="103" T_Register="123(91)" T_Lut="153(103)">
+   <SubModule name="u_tx" Register="32" Lut="50" T_Register="32(32)" T_Lut="50(50)"/>
+  </SubModule>
+ </SubModule>
+ <SubModule name="u_trajectory_uart_packet_tx" Register="68" Alu="7" Lut="220" T_Register="100(68)" T_Alu="7(7)" T_Lut="271(220)">
+  <SubModule name="u_uart_tx" Register="32" Lut="51" T_Register="32(32)" T_Lut="51(51)"/>
+ </SubModule>
+ <SubModule name="u_result_uart_packet_rx" Register="19" Alu="8" Lut="9" T_Register="19(19)" T_Alu="8(8)" T_Lut="9(9)"/>
+ <SubModule name="u_ws2812_status_ring" Register="56" Alu="13" Lut="83" T_Register="113(56)" T_Alu="13(13)" T_Lut="184(83)">
+  <SubModule name="u_ws2812b_tx" Register="57" Lut="101" T_Register="57(57)" T_Lut="101(101)"/>
+ </SubModule>
+ <SubModule name="u_ssd1306_status_i2c" Register="90" Alu="4" Lut="408" Bsram="2" T_Register="125(90)" T_Alu="4(4)" T_Lut="466(408)" T_Bsram="2(2)">
+  <SubModule name="u_oled_i2c_tx" Register="35" Lut="58" T_Register="35(35)" T_Lut="58(58)"/>
+ </SubModule>
+ <SubModule name="u_hdmi_pll" T_Register="39(0)" T_Alu="16(0)" T_Lut="55(0)">
+  <SubModule name="u_pll"/>
+  <SubModule name="u_pll_init" Register="39" Alu="16" Lut="55" T_Register="39(39)" T_Alu="16(16)" T_Lut="55(55)"/>
+ </SubModule>
+ <SubModule name="u_ddr3_frame_buffer" Register="77" Alu="9" Lut="174" T_Register="244(77)" T_Alu="36(9)" T_Lut="503(174)" T_Bsram="8(0)">
+  <SubModule name="u_wr_data_fifo" Register="79" Alu="9" Lut="72" Bsram="4" T_Register="79(79)" T_Alu="9(9)" T_Lut="72(72)" T_Bsram="4(4)"/>
+  <SubModule name="u_rd_data_fifo" Register="88" Alu="18" Lut="257" Bsram="4" T_Register="88(88)" T_Alu="18(18)" T_Lut="257(257)" T_Bsram="4(4)"/>
+ </SubModule>
+ <SubModule name="u_video_720p_camera" Register="249" Alu="13" Lut="386" MULT12X12="1" Bsram="1" T_Register="249(249)" T_Alu="22(13)" T_Lut="402(386)" T_MULT12X12="1(1)" T_Bsram="1(1)">
+  <SubModule name="u_engineering_hud" Alu="9" Lut="16" T_Alu="9(9)" T_Lut="16(16)"/>
+ </SubModule>
+ <SubModule name="u_board_health_monitor" Register="93" Lut="102" T_Register="93(93)" T_Lut="102(102)"/>
+ <SubModule name="u_result_audio_event" Register="16" Lut="15" T_Register="16(16)" T_Lut="15(15)"/>
+ <SubModule name="u_meow_pcm_player" Register="47" Lut="75" Bsram="8" T_Register="47(47)" T_Lut="75(75)" T_Bsram="8(8)"/>
+ <SubModule name="u_hdmi_tmds_tx" Register="39" Lut="73" Ssram="9" T_Register="358(39)" T_Alu="153(0)" T_Lut="782(73)" T_Ssram="25(9)">
+  <SubModule name="u_hdmi_audio_island" Register="188" Lut="509" Ssram="16" T_Register="188(188)" T_Lut="509(509)" T_Ssram="16(16)"/>
+  <SubModule name="u_encode_blue" Register="48" Alu="52" Lut="64" T_Register="48(48)" T_Alu="52(52)" T_Lut="64(64)"/>
+  <SubModule name="u_encode_green" Register="43" Alu="49" Lut="72" T_Register="43(43)" T_Alu="49(49)" T_Lut="72(72)"/>
+  <SubModule name="u_encode_red" Register="40" Alu="52" Lut="64" T_Register="40(40)" T_Alu="52(52)" T_Lut="64(64)"/>
+  <SubModule name="u_serializer"/>
+ </SubModule>
+</Module>

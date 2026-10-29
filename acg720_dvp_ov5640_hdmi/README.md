@@ -58,6 +58,17 @@ HDMI60Hz是输出扫描刷新率，不是摄像头/检测帧率；实际摄像�
 
 ## 快速开始：编译与下载
 
+本目录包含完整工程与当前编译产物，其中大型 `.pr` 布局数据库由Git LFS存储。获取全部文件需已安装Git LFS，然后执行：
+
+```bash
+git clone https://github.com/RedWaltz-Moon/xiaoya-fpga-airwriting.git
+cd xiaoya-fpga-airwriting
+git lfs install --local
+git lfs pull
+```
+
+GitHub网页生成的ZIP是否包含LFS对象取决于仓库设置；需要完整布局数据库时，使用上述方式获取。
+
 1. Gowin打开本目录`acg720_dvp_ov5640_hdmi.gprj`，检查138C型号。
 2. **显式设置顶层**为`acg720_dvp_ov5640_hdmi`，输出基名同名。不能留空让工具自动选择，也不能设成`video_720p_colorbar`。
 3. 完整综合后自然布局布线；不要仅重跑旧/错误网表的P&R。重新打开工程，避免IDE旧配置覆盖新设置。
@@ -308,7 +319,7 @@ BC5BFB60BF684FBA0F42A40DCF8EFEAE15C8DB047B5D6A767B7C22E878CDF957
 
 ## 发布说明与许可证
 
-源码发布应保留 GPRJ、完整 `src/`、过程配置和 README，排除个人 IDE 缓存、临时探针与历史编译产物。发布位流时同时标明源码版本、工具版本、器件、报告与 SHA-256；移植其他板卡须重新生成相关 IP、调整约束并验证时序。
+本目录随仓库保留完整工程、过程配置及当前编译产物。位流与报告仅对应各自构建，重新编译后应重新核对；移植其他板卡须重新生成相关IP、调整约束并验证时序。
 
 本项目自研 RTL 及项目提供的 OLED 彩虹猫字模采用 [MIT License](../LICENSE)，版权署名为 `Copyright (c) 2026 RedWaltz`。字模随项目素材发布；授权仅涉及项目有权授权的文件，不延伸至同名角色、作品或商标的其他权利。独立分发本工程时应附带许可证全文。
 

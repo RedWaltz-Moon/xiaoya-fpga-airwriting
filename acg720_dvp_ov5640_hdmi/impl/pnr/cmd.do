@@ -1,0 +1,21 @@
+-d D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\impl\gwsynthesis\acg720_dvp_ov5640_hdmi.vg
+-p GW5AT-138C-PBGA484A-1
+-pn GW5AT-LV138PG484AC1/I0
+-cst D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\acg720_dvp_ov5640_hdmi.cst
+-cfg D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\impl\pnr\device.cfg
+-sdc D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\acg720_dvp_ov5640_hdmi.sdc
+-bit
+-tr
+-ph
+-timing
+-ireg_not_in_iob
+-oreg_not_in_iob
+-ioreg_not_in_iob
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-place_option 3
+-route_option 2
+-clock_route_order 0
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000

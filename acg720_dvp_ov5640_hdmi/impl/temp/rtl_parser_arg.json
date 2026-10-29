@@ -1,0 +1,201 @@
+{
+ "Device" : "GW5AT-138C",
+ "Files" : [
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/acg720_dvp_ov5640_hdmi.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/control/key_debounce.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/control/board_health_monitor.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/display/engineering_hud.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/display/ws2812b_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/display/ws2812_status_ring.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/control/ht6221_remote_buttons.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/display/elapsed_time_sevenseg.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/display/ssd1306_status_i2c.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/display/oled_i2c_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/trajectory/trajectory_point_buffer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/trajectory/unsigned_divider_32.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/trajectory/trajectory_resampler.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/uart/uart_tx_8n1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/uart/trajectory_uart_packet_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/uart/uart_rx_8n1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/uart/result_packet_window.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/uart/host_uart_bridge.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/uart/print_link_core.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/uart/print_status_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/camera/DVP_Capture.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/camera/camera_init.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/camera/i2c_control/i2c_bit_shift.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/camera/i2c_control/i2c_control.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/camera/ov5640_init_table_jpeg.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/camera/ov5640_init_table_rgb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/camera/ov7725_init_table_rgb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/ddr3_frame_buffer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/ddr3_memory_interface/ddr3_memory_interface.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/ddr3_self_test.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/fifo_top/rd_data_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/fifo_top/wr_data_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/gowin_pll/gowin_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/gowin_pll/gowin_pll_mod.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/gowin_sdpb/mask_line_buffer_sdpb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/hdmi_pll/hdmi_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/hdmi_pll/hdmi_pll_mod.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/hdmi_tmds_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/audio/result_audio_event.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/audio/meow_pcm_player.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/audio/hdmi_audio_island.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/pll_init.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/video_720p_camera.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/video_720p_colorbar.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/vision/red_pen_centroid.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/vision/hand_skin_mask.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/src/vision/trajectory_bitmap_sdpb.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/Gowin_FPGA/Gowin/Gowin_V1.9.12_x64/Object/acg720_dvp_ov5640_hdmi/impl/temp/rtl_parser.result",
+ "Top" : "acg720_dvp_ov5640_hdmi",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,30 @@
+Reading netlist file: "D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\impl\gwsynthesis\acg720_dvp_ov5640_hdmi.vg"
+Parsing netlist file "D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\impl\gwsynthesis\acg720_dvp_ov5640_hdmi.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\acg720_dvp_ov5640_hdmi.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'COMS_PCLK_d' by the specified constraint. And then it may lead to the excessive delay or skew
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\impl\pnr\acg720_dvp_ov5640_hdmi.power.html" completed
+Generate file "D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\impl\pnr\acg720_dvp_ov5640_hdmi.pin.html" completed
+Generate file "D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\impl\pnr\acg720_dvp_ov5640_hdmi.rpt.html" completed
+Generate file "D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\impl\pnr\acg720_dvp_ov5640_hdmi.rpt.txt" completed
+Generate file "D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\impl\pnr\acg720_dvp_ov5640_hdmi.tr.html" completed
+Sun Oct 18 15:30:43 2026
+

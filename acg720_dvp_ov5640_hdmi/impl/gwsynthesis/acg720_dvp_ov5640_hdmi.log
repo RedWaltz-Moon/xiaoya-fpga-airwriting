@@ -1,0 +1,143 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\acg720_dvp_ov5640_hdmi.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\control\key_debounce.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\control\board_health_monitor.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\display\engineering_hud.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\display\ws2812b_tx.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\display\ws2812_status_ring.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\control\ht6221_remote_buttons.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\display\elapsed_time_sevenseg.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\display\ssd1306_status_i2c.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\display\oled_i2c_tx.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\trajectory\trajectory_point_buffer.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\trajectory\unsigned_divider_32.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\trajectory\trajectory_resampler.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\uart\uart_tx_8n1.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\uart\trajectory_uart_packet_tx.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\uart\uart_rx_8n1.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\uart\result_packet_window.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\uart\host_uart_bridge.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\uart\print_link_core.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\uart\print_status_tx.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\camera\DVP_Capture.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\camera\camera_init.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\camera\i2c_control\i2c_bit_shift.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\camera\i2c_control\i2c_control.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\camera\ov5640_init_table_jpeg.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\camera\ov5640_init_table_rgb.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\camera\ov7725_init_table_rgb.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\ddr3_frame_buffer.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\ddr3_memory_interface\ddr3_memory_interface.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\ddr3_self_test.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\fifo_top\rd_data_fifo.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\fifo_top\wr_data_fifo.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\gowin_pll\gowin_pll.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\gowin_pll\gowin_pll_mod.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\gowin_sdpb\mask_line_buffer_sdpb.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\hdmi_pll\hdmi_pll.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\hdmi_pll\hdmi_pll_mod.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\hdmi_tmds_tx.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\audio\result_audio_event.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\audio\meow_pcm_player.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\audio\hdmi_audio_island.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\pll_init.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\video_720p_camera.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\video_720p_colorbar.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\vision\red_pen_centroid.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\vision\hand_skin_mask.v'
+Analyzing Verilog file 'D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\vision\trajectory_bitmap_sdpb.v'
+Compiling module 'acg720_dvp_ov5640_hdmi'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\acg720_dvp_ov5640_hdmi.v":3)
+Compiling module 'elapsed_time_sevenseg'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\display\elapsed_time_sevenseg.v":7)
+Compiling module 'key_debounce(DEBOUNCE_COUNT_MAX=20'b11110100001000111111)'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\control\key_debounce.v":6)
+Compiling module 'ht6221_remote_buttons'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\control\ht6221_remote_buttons.v":8)
+Compiling module 'Gowin_PLL'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\gowin_pll\gowin_pll.v":1)
+Compiling module 'Gowin_PLL_MOD'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\gowin_pll\gowin_pll_mod.v":10)
+Compiling module 'PLL_INIT(CLK_PERIOD=20,MULTI_FAC=16)'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\pll_init.v":3)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\pll_init.v":179)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 17("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\pll_init.v":207)
+Compiling module 'ddr3_self_test'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\ddr3_self_test.v":5)
+Compiling module 'DDR3_Memory_Interface_Top'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\ddr3_memory_interface\ddr3_memory_interface.v":19021)
+Compiling module '**'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\ddr3_memory_interface\ddr3_memory_interface.v":19020)
+Compiling module 'camera_init(IMAGE_WIDTH=1280,IMAGE_HEIGHT=720,IMAGE_MIRROR_EN=1)'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\camera\camera_init.v":18)
+Compiling module 'ov5640_init_table_rgb(IMAGE_WIDTH=1280,IMAGE_HEIGHT=720,IMAGE_FLIP_EN=0,IMAGE_MIRROR_EN=1)'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\camera\ov5640_init_table_rgb.v":18)
+Compiling module 'i2c_control'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\camera\i2c_control\i2c_control.v":18)
+Compiling module 'i2c_bit_shift'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\camera\i2c_control\i2c_bit_shift.v":18)
+Compiling module 'DVP_Capture'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\camera\DVP_Capture.v":18)
+Compiling module 'red_pen_centroid(MIN_AREA=20'd750)'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\vision\red_pen_centroid.v":6)
+Compiling module 'mask_line_buffer_sdpb'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\gowin_sdpb\mask_line_buffer_sdpb.v":10)
+Compiling module 'trajectory_bitmap_sdpb'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\vision\trajectory_bitmap_sdpb.v":6)
+Compiling module 'hand_skin_mask'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\vision\hand_skin_mask.v":5)
+Compiling module 'trajectory_point_buffer'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\trajectory\trajectory_point_buffer.v":6)
+Extracting RAM for identifier 'point_memory'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\trajectory\trajectory_point_buffer.v":25)
+Compiling module 'trajectory_resampler'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\trajectory\trajectory_resampler.v":7)
+Extracting RAM for identifier 'normalized_points'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\trajectory\trajectory_resampler.v":95)
+Compiling module 'unsigned_divider_32'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\trajectory\unsigned_divider_32.v":5)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\trajectory\trajectory_resampler.v":340)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 12("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\trajectory\trajectory_resampler.v":368)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\trajectory\trajectory_resampler.v":415)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\trajectory\trajectory_resampler.v":417)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\trajectory\trajectory_resampler.v":419)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\trajectory\trajectory_resampler.v":421)
+Compiling module 'host_uart_bridge'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\uart\host_uart_bridge.v":6)
+Compiling module 'uart_rx_8n1'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\uart\uart_rx_8n1.v":5)
+Compiling module 'print_link_core'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\uart\print_link_core.v":7)
+Extracting RAM for identifier 'text_ram'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\uart\print_link_core.v":39)
+Compiling module 'uart_tx_8n1(CLOCKS_PER_BIT=16'd5208)'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\uart\uart_tx_8n1.v":5)
+Compiling module 'print_status_tx'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\uart\print_status_tx.v":5)
+Compiling module 'uart_tx_8n1(CLOCKS_PER_BIT=16'b0000000110110010)'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\uart\uart_tx_8n1.v":5)
+Compiling module 'trajectory_uart_packet_tx'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\uart\trajectory_uart_packet_tx.v":6)
+Compiling module 'uart_tx_8n1'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\uart\uart_tx_8n1.v":5)
+Compiling module 'result_packet_window'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\uart\result_packet_window.v":6)
+Compiling module 'ws2812_status_ring'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\display\ws2812_status_ring.v":6)
+Compiling module 'ws2812b_tx(LED_LAST=4'b1111)'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\display\ws2812b_tx.v":7)
+Compiling module 'ssd1306_status_i2c'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\display\ssd1306_status_i2c.v":7)
+Extracting RAM for identifier 'cat_rom'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\display\ssd1306_status_i2c.v":63)
+Compiling module 'oled_i2c_tx'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\display\oled_i2c_tx.v":14)
+WARN  (EX3791) : Expression size 128 truncated to fit in target size 8("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\display\ssd1306_status_i2c.v":125)
+WARN  (EX3791) : Expression size 128 truncated to fit in target size 8("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\display\ssd1306_status_i2c.v":155)
+Compiling module 'hdmi_pll'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\hdmi_pll\hdmi_pll.v":1)
+Compiling module 'hdmi_pll_MOD'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\hdmi_pll\hdmi_pll_mod.v":10)
+Compiling module 'PLL_INIT(CLK_PERIOD=20,MULTI_FAC=37)'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\pll_init.v":3)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\pll_init.v":179)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 17("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\pll_init.v":207)
+Compiling module 'ddr3_frame_buffer'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\ddr3_frame_buffer.v":7)
+Compiling module 'wr_data_fifo'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\fifo_top\wr_data_fifo.v":723)
+Compiling module '**'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\fifo_top\wr_data_fifo.v":722)
+Compiling module 'rd_data_fifo'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\fifo_top\rd_data_fifo.v":1274)
+Compiling module '**'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\fifo_top\rd_data_fifo.v":1273)
+Compiling module 'video_720p_camera'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\video_720p_camera.v":5)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 3("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\video_720p_camera.v":71)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 3("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\video_720p_camera.v":72)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 3("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\video_720p_camera.v":225)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 3("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\video_720p_camera.v":227)
+Compiling module 'engineering_hud'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\display\engineering_hud.v":6)
+Compiling module 'board_health_monitor'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\control\board_health_monitor.v":8)
+Compiling module 'result_audio_event'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\audio\result_audio_event.v":6)
+Compiling module 'meow_pcm_player'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\audio\meow_pcm_player.v":6)
+Extracting RAM for identifier 'pcm_rom'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\audio\meow_pcm_player.v":15)
+Compiling module 'hdmi_tmds_tx'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\hdmi_tmds_tx.v":5)
+Compiling module 'hdmi_audio_island'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\audio\hdmi_audio_island.v":8)
+Extracting RAM for identifier 'sample_fifo'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\audio\hdmi_audio_island.v":52)
+Compiling module 'tmds_encode'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\hdmi_tmds_tx.v":88)
+Compiling module 'tmds_serializer_4lane'("D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\src\hdmi_tmds_tx.v":179)
+NOTE  (EX0101) : Current top module is "acg720_dvp_ov5640_hdmi"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\impl\gwsynthesis\acg720_dvp_ov5640_hdmi.vg" completed
+[100%] Generate report file "D:\Gowin_FPGA\Gowin\Gowin_V1.9.12_x64\Object\acg720_dvp_ov5640_hdmi\impl\gwsynthesis\acg720_dvp_ov5640_hdmi_syn.rpt.html" completed
+GowinSynthesis finish
